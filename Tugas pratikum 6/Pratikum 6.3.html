@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas pratikum 6.3 | Miftahul Fikri Pratama</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgb(124, 124, 124);
+        }
+        .header {
+            width: 800;
+            height: 90px;
+            background-color: rgb(196, 190, 177);
+        }
+        .main {
+            width: 800;
+            height: 350;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .main .aside {
+            width: 300px;
+            height: 400px;
+            background-color: rgb(138, 106, 76);
+        }
+        .main .article {
+            width: 875px;
+            height: 400px;
+            display: flex;
+            justify-content: space-between;
+            background-color: rgba(66, 50, 45, 0.699);
+        }
+        .main .article .image {
+            width: 150px;
+            height: 100px;
+            margin: 50px;
+            align-self: flex-end;
+            background-color: rgb(119, 179, 85);
+        }
+        .footer {
+            width: 1200px;
+            height: 90px;
+            margin-top: 20px;
+            background-color: rgb(196, 190, 177);
+        }
+        img {
+            width: 150px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"><h2>Header</h2></div>
+        <div class="main">
+            <div class="aside"><h2>Aside</h2></div>
+            <div class="article"><h2>Article</h2></div>
+            <div class="article">
+                <div class="image"><img src="foto2.jpeg" alt=""></div>
+                <div class="image"><img src="foto1.jpeg" alt=""></div>
+                <div class="image"><img src="foto2.jpeg" alt=""></div>
+            </div>
+        </div>
+        <div class="footer"><h2>Footer</h2></div>
+    </div>
+</body>
+</html>
